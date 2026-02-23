@@ -1,0 +1,296 @@
+# Welcome to Jekyll!
+# This is the configuration file for your Jekyll site.
+# Note: Do not change the keys on the left side of the colon (e.g., title:).
+# Only change the values on the right side.
+# If you modify this file while running locally, you usually need to restart the server.
+
+# =======================
+# 1. Basic Site Settings
+# =======================
+locale                   : "en-US"   # [Modified] Set locale to US English
+site_theme               : "default" # Theme options: "default", "air", "sunrise", "mint", "dirt", "contrast"
+title                    : "Xiaojun Quan" # [Modified] Title shown in browser tab
+title_separator          : "-"
+name                     : &name "Xiaojun Quan" # [Modified] Name of the website/user
+description              : &description "Professor at the School of Computer Science and Engineering, Sun Yat-sen University. Research: NLP, LLMs, Model Fusion." # [Modified] Short description for SEO
+url                      : "https://SLIT-AI.github.io" # [Modify] Replace with your actual URL, e.g., https://SLIT-AI.github.io
+baseurl                  : "" # Usually left empty for user sites
+repository               : "SLIT-AI/SLIT-AI.github.io" # [Modify] Your GitHub repository path
+
+# =======================
+# 2. Author Profile (Sidebar)
+# =======================
+# If a field is left blank, the icon/link will not appear.
+author:
+  avatar           : "profile.png" # Ensure your photo is named profile.png and placed in the /images/ folder
+  name             : "Xiaojun Quan"      # [Modified] Name shown in sidebar
+  pronouns         : "Professor"         # [Modified] Title/Pronouns
+  bio              : "Professor at Sun Yat-sen University (SYSU). Distinguished Member of CCF. Research interests include NLP and Large Language Models." # [Modified] Short bio
+  location         : "Guangzhou, China"  # [Modified] Location
+  employer         : "Sun Yat-sen University" # [Modified] Employer
+  uri              : "https://cse.sysu.edu.cn/en/teacher/QuanXiaojun" # Link to your official faculty page
+  email            : "quanxj3@mail.sysu.edu.cn" 
+
+  # Academic Links
+  googlescholar    : "https://scholar.google.com/citations?user=dRpg4t8AAAAJ" 
+  orcid            : # Add your ORCID URL here
+  researchgate     : # Add your ResearchGate URL here
+  github           : # [Modify] Your GitHub username
+
+  # Social Media (Leave blank if not used)
+  twitter          : 
+  linkedin         : 
+  zhihu            : # Add username if you have one
+
+# =======================
+# 3. Publication Category Settings
+# =======================
+# Sets the headings used on the publications list page
+publication_category:
+  books:
+    title: 'Books'
+  manuscripts:
+    title: 'Journal Articles'
+  conferences:
+    title: 'Conference Papers'
+
+# =======================
+# 4. Site Features
+# =======================
+teaser                   : # Filename of fallback teaser image in /images/
+breadcrumbs              : false # Show breadcrumb navigation (true/false)
+words_per_minute         : 160
+future                   : true
+read_more                : "disabled" # If enabled, adds "Read more" links
+talkmap_link             : false      # Show map on talks page
+
+# Comment System (Usually not needed for academic profiles, default is fine)
+comments:
+  provider               : # false (default), "disqus", "discourse", etc.
+  disqus:
+    shortname            :
+  facebook:
+    appid                :
+    num_posts            : # 5 (default)
+    colorscheme          : # "light" (default), "dark"
+
+# Staticman Configuration (Advanced, usually skipped)
+staticman:
+  allowedFields          : ['name', 'email', 'url', 'message']
+  branch                 : "gh-pages" 
+  commitMessage          : "New comment."
+  filename               : comment-{@timestamp}
+  format                 : "yml"
+  moderation             : true
+  path                   : "_data/comments/{options.slug}"
+  requiredFields         : ['name', 'email', 'message']
+  transforms:
+    email                : "md5"
+  generatedFields:
+    date:
+      type               : "date"
+      options:
+        format           : "iso8601" 
+
+# RSS Feed
+atom_feed:
+  hide                   : false # Set to true to hide the RSS icon in the footer
+
+# =======================
+# 5. SEO & Social Sharing
+# =======================
+google_site_verification : # Google Search Console verification code
+bing_site_verification   :
+baidu_site_verification  : # Baidu verification code
+
+# Social Sharing Settings
+twitter:
+  username               : &twitter
+facebook:
+  username               :
+  app_id                 :
+  publisher              :
+og_image                 :  # Default image for social media sharing
+og_description           :  # Default description for social media sharing
+
+social:
+  type                   : Person
+  name                   : Xiaojun Quan
+  links: # Array of social media links
+
+# =======================
+# 6. Analytics
+# =======================
+analytics:
+  provider               : "false" # Set to "google" or "baidu" if needed
+  google:
+    tracking_id          :
+
+# =======================
+# 7. System & Build Settings (Rarely need editing)
+# =======================
+include:
+  - .htaccess
+  - _pages
+  - files
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - .asset-cache
+  - .bundle
+  - .github
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/_main.js
+  - assets/js/plugins
+  - assets/js/vendor
+  - CHANGELOG
+  - Capfile
+  - config
+  - Dockerfile
+  - Gemfile
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - local
+  - log
+  - node_modules
+  - package.json*
+  - Rakefile
+  - README
+  - tmp
+  - vendor
+keep_files:
+  - .git
+  - .svn
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+# Conversion Settings
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+# Markdown Processor Settings
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+# Collections - Defines the sections of your site
+collections:
+  teaching:
+    output: true
+    permalink: /:collection/:path/
+  publications:
+    output: true
+    permalink: /:collection/:path/
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
+  talks:
+    output: true
+    permalink: /:collection/:path/
+
+# Default Layout Settings
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  # _teaching
+  - scope:
+      path: ""
+      type: teaching
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _publications
+  - scope:
+      path: ""
+      type: publications
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _portfolio
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
+  # _talks
+  - scope:
+      path: ""
+      type: talks
+    values:
+      layout: talk
+      author_profile: true
+      share: true
+
+# Style Settings
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Output Settings
+permalink: /:categories/:title/
+timezone: Asia/Shanghai # Set to your local timezone
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jemoji
+
+whitelist:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jemoji
+
+# Archive Settings
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+
+# HTML Compression
+compress_html:
+  clippings: all
+  ignore:
+    envs: development

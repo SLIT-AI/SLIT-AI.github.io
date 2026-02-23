@@ -1,0 +1,47 @@
+---
+layout: archive
+title: "Publications"
+permalink: /publications/
+author_profile: true
+---
+
+{% if site.author.googlescholar %}
+  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+{% endif %}
+
+{% include base_path %}
+
+{% if site.publication_category %}
+  {% comment %} 
+  {% endcomment %}
+  {% assign ordered_categories = "conferences,manuscripts" | split: "," %}
+
+  {% for category_key in ordered_categories %}
+    {% assign category_info = site.publication_category[category_key] %}
+    {% if category_info %}
+      
+      {% assign title_shown = false %}
+      {% for post in site.publications reversed %}
+        {% if post.category != category_key %}
+          {% continue %}
+        {% endif %}
+        
+        {% unless title_shown %}
+          <h2>{{ category_info.title }}</h2><hr />
+          {% assign title_shown = true %}
+        {% endunless %}
+        
+        {% include archive-single.html %}
+      {% endfor %}
+      
+    {% endif %}
+  {% endfor %}
+  
+  {% comment %} 
+  {% endcomment %}
+
+{% else %}
+  {% for post in site.publications reversed %}
+    {% include archive-single.html %}
+  {% endfor %}
+{% endif %}
