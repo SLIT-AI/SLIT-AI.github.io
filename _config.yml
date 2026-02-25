@@ -9,11 +9,11 @@
 # =======================
 locale                   : "en-US"   # [Modified] Set locale to US English
 site_theme               : "default" # Theme options: "default", "air", "sunrise", "mint", "dirt", "contrast"
-title                    : "Xiaojun Quan" # [Modified] Title shown in browser tab
+title                    : "Xiaojun Quan's Homepage" # [Modified] Title shown in browser tab
 title_separator          : "-"
-name                     : &name "Xiaojun Quan" # [Modified] Name of the website/user
-description              : &description "Professor at the School of Computer Science and Engineering, Sun Yat-sen University. Research: NLP, LLMs, Model Fusion." # [Modified] Short description for SEO
-url                      : "https://SLIT-AI.github.io" # [Modify] Replace with your actual URL, e.g., https://SLIT-AI.github.io
+name                     : &name "Xiaojun Quan's Homepage" # [Modified] Name of the website/user
+description              : &description "Professor at Shenzhen Loop Area Institute. Research: NLP, LLMs, Model Fusion." # [Modified] Short description for SEO
+url                      : "http://localhost:4000" # "https://SLIT-AI.github.io"
 baseurl                  : "" # Usually left empty for user sites
 repository               : "SLIT-AI/SLIT-AI.github.io" # [Modify] Your GitHub repository path
 
@@ -24,11 +24,10 @@ repository               : "SLIT-AI/SLIT-AI.github.io" # [Modify] Your GitHub re
 author:
   avatar           : "profile.png" # Ensure your photo is named profile.png and placed in the /images/ folder
   name             : "Xiaojun Quan"      # [Modified] Name shown in sidebar
-  pronouns         : "Professor"         # [Modified] Title/Pronouns
-  bio              : "Professor at Sun Yat-sen University (SYSU). Distinguished Member of CCF. Research interests include NLP and Large Language Models." # [Modified] Short bio
+  bio              : "Professor at the Shenzhen Loop Area Institute" # [Modified] Short bio
   location         : "Guangzhou, China"  # [Modified] Location
-  employer         : "Sun Yat-sen University" # [Modified] Employer
-  uri              : "https://cse.sysu.edu.cn/en/teacher/QuanXiaojun" # Link to your official faculty page
+  employer         : "Shenzhen Loop Area Institute" # [Modified] Employer
+  uri              : "https://SLIT-AI.github.io" # Link to your official faculty page
   email            : "quanxj3@mail.sysu.edu.cn" 
 
   # Academic Links

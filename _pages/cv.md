@@ -17,7 +17,8 @@ redirect_from:
 * **B.E. in Computer Science and Engineering**, Chang’an University, Xi’an, China (July 2005)
 
 ## 💼 Work Experience
-* **Professor**, School of Computer Science and Engineering, Sun Yat-sen University, China (July 2017 – Present)
+* **Professor**, Shenzhen Loop Area Institute, China (Jan 2026 – Present)
+* **Professor**, School of Computer Science and Engineering, Sun Yat-sen University, China (Jul 2017 – Dec 2025)
 * **Scientist**, Institute for Infocomm Research (I²R), A*STAR, Singapore (Jan 2014 – May 2017)
 * **Postdoctoral Fellow**, Dept. of Linguistics & Translation, City University of Hong Kong (Sep 2012 – Dec 2013)
   * Collaborator: Prof. Chunyu Kit

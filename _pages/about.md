@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Biography"
+title: "About me"
 excerpt: "About Professor Xiaojun Quan"
 author_profile: true
 redirect_from: 
@@ -8,26 +8,31 @@ redirect_from:
   - /about.html
 ---
 
-I am a **Professor** in the School of Computer Science and Engineering at **Sun Yat-sen University**, Guangzhou, China, since July 2017. 
+I am a **professor** at the **Shenzhen Loop Area Institute**. I received my Ph.D. from the Department of Computer Science at **City University of Hong Kong**. I have conducted research and held academic or research positions at **Rutgers Business School**, the Department of Computer Science at **Purdue University**, the Department of Linguistics and Translation at **City University of Hong Kong**, the Institute for Infocomm Research at **A*STAR** (Singapore), and the School of Computer Science and Engineering at **Sun Yat-sen University**.
 
-My research focuses on **Natural Language Processing (NLP)** and **Large Language Models (LLMs)**, with particular interests in:
-* Heterogeneous Model Fusion
-* Model Compression & Knowledge Distillation
-* LLM Alignment
-* AI-Generated Content Detection
-* Chinese NLP
+My research focuses on **Natural Lnguage Processing (NLP)**, **large language models (LLMs)**, and **model compression** and **lightweight architectures**. I have published over 100 papers in leading international journals and conferences, including IEEE TPAMI, ACL, ICML, NeurIPS, and ICLR, and have led multiple national- and provincial-level research projects. My team pioneered research on heterogeneous model fusion and developed the FuseLLM and FuseChat series, which have attracted broad attention from academia and industry. I welcome research collaborations and applications from students interested in NLP and LLMs.
 
-Specifically, I am interested in **enhancing the capabilities of small language models to rival the performance of larger models**—both for practical deployment and to challenge the common assumption that high performance necessarily requires massive resources.
 
-My team has developed a systematic framework for improving small models using stronger models, incorporating four complementary strategies: *knowledge distillation*, *data distillation*, *iterative refinement*, and *inverse reward modeling*.
+---
+# Latest News
+
++ 01/01/26 - Research project funded by National Natural Science Foundation of China (General Program) approved.
++ 12/15/25 - Invited to serve as Area Chair for ICLR 2026.
++ 10/06/25 - Three papers accepted to EMNLP 2025.
++ 05/16/25 - Three papers accepted to ACL 2025.
++ 05/15/25 - One paper accepted to ICML 2025.
++ 05/01/25 - Research project funded by Meituan approved.
++ 04/01/25 - Research project funded by WeChat approved.
++ 02/01/25 - Research project funded by China Mobile Internet Company approved.
++ 01/22/25 - Three papers accepted to ICLR 2025 (including one Spotlight).
 
 ---
 
-## 🌟 Research Highlights
+# 🌟 Research Highlights
 
-To date, I have published **over 100 papers** in leading conferences (ICML, NeurIPS, ACL, EMNLP, WWW, SIGIR, AAAI, IJCAI) and top journals (TPAMI, TKDE). This body of work has received **over 4,700 citations**.
+To date, I have published **over 100 papers** in leading international journals and conferences, including **ICLR**, ICML, NeurIPS, ACL, EMNLP, WWW, SIGIR, AAAI, IJCAI, and **IEEE TPAMI**. This body of work has received broad attention from both academia and industry.
 
-### Pioneering Work: Model Fusion
+## Pioneering Work: Model Fusion
 Our team pioneered research on **Heterogeneous Model Fusion** to leverage the strengths of multiple open-source LLMs.
 * **Key Projects:** Developed the **FuseLLM**, **FuseChat (1.0/2.0/3.0)**, and **FuseRL** series.
 * **Impact:** These open-source projects have collectively received **over 100,000 downloads** on Hugging Face and GitHub.
@@ -37,9 +42,10 @@ Our team pioneered research on **Heterogeneous Model Fusion** to leverage the st
 
 ---
 
-## 🎓 Experience
+# 🎓 Experience
 
-* **Professor**, School of Computer Science and Engineering, Sun Yat-sen University (2017.07 – Present)
+* **Professor**, Shenzhen Loop Area Institute (Present)
+* **Professor**, School of Computer Science and Engineering, Sun Yat-sen University (2017.07 – Previous)
 * **Scientist**, Institute for Infocomm Research (I²R), A*STAR, Singapore (2014.01 – 2017.05)
 * **Postdoctoral Fellow**, Dept. of Linguistics & Translation, City University of Hong Kong (2012.09 – 2013.12)
 * **Visiting Scholar**, Dept. of Computer Science, Purdue University (2011.07 – 2011.12)
@@ -47,20 +53,20 @@ Our team pioneered research on **Heterogeneous Model Fusion** to leverage the st
 
 ---
 
-## 📢 Openings
+# 📢 Openings
 
 **I am actively looking for self-motivated Master's and Ph.D. students.**
 
 * **Requirements:** Strong background in computer science, mathematics, or related fields; passion for NLP and LLM research; good programming skills (Python/PyTorch).
 * **What we offer:**
-    * Guidance on cutting-edge research topics (LLM fusion, alignment, etc.).
+    * Guidance on cutting-edge research topics (LLM fusion, alignment, lightweight architectures, etc.).
     * Opportunities to collaborate with top industry labs (Alibaba DAMO Academy, Tencent AI Lab, etc.).
     * Competitive allowance and scholarships.
-* **Contact:** Please send your CV and transcripts to **quanxj3@mail.sysu.edu.cn**.
+* **Contact:** Please send your CV and transcripts to **xiaojunquan@gmail.com**.
 
 ---
 
-## 💰 Selected Grants (Principal Investigator)
+# 💰 Selected Grants (Principal Investigator)
 
 * **National Natural Science Foundation of China (NSFC)**: Research on Large Model Compression Technology Based on Heterogeneous Model Fusion (2026–2029).
 * **National Natural Science Foundation of China (NSFC)**: Research on Emotion Recognition in Conversation Combined with Automatic Personality Detection (2022–2025).
@@ -69,7 +75,7 @@ Our team pioneered research on **Heterogeneous Model Fusion** to leverage the st
 
 ---
 
-## 🏆 Honors & Awards
+# 🏆 Honors & Awards
 
 * **Third Prize for Scientific and Technological Achievement**, Guangdong Communication Society (2024)
 * **First Prize for Outstanding Paper**, Guangdong Computer Society (2021)

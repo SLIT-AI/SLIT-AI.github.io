@@ -153,9 +153,25 @@
     height: auto;
   }
 
+  // img {
+  //   max-width: 175px;
+  //   border-radius: 50%;
+
+  //   @include breakpoint($large) {
+  //     padding: 5px;
+  //     border: 1px solid var(--global-border-color);
+  //   }
+  // }
   img {
-    max-width: 175px;
-    border-radius: 50%;
+    max-width: 225px; /* 这里控制图片最大宽度，你可以改大一点，比如 200px */
+    
+    /* border-radius: 50%;  <-- 删掉或者注释掉这一行 */
+    border-radius: 0;       /* 改为 0 就是直角长方形 */
+    /* border-radius: 10px;    <-- 如果想要一点点圆角，可以用这一行 */
+
+    /* 确保图片不被压扁 */
+    height: auto;
+    width: 100%;
 
     @include breakpoint($large) {
       padding: 5px;
