@@ -13,7 +13,7 @@ title                    : "Xiaojun Quan's Homepage" # [Modified] Title shown in
 title_separator          : "-"
 name                     : &name "Xiaojun Quan's Homepage" # [Modified] Name of the website/user
 description              : &description "Professor at Shenzhen Loop Area Institute. Research: NLP, LLMs, Model Fusion." # [Modified] Short description for SEO
-url                      : "http://localhost:4000" # "https://SLIT-AI.github.io"
+url                      : "https://SLIT-AI.github.io" # "https://SLIT-AI.github.io" "http://localhost:4000"
 baseurl                  : "" # Usually left empty for user sites
 repository               : "SLIT-AI/SLIT-AI.github.io" # [Modify] Your GitHub repository path
 
