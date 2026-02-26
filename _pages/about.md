@@ -8,14 +8,15 @@ redirect_from:
   - /about.html
 ---
 
-I am a **professor** at the **Shenzhen Loop Area Institute**. I received my Ph.D. from the Department of Computer Science at **City University of Hong Kong**. I have conducted research and held academic or research positions at **Rutgers Business School**, the Department of Computer Science at **Purdue University**, the Department of Linguistics and Translation at **City University of Hong Kong**, the Institute for Infocomm Research at **A*STAR** (Singapore), and the School of Computer Science and Engineering at **Sun Yat-sen University**.
+I am a professor at the *Shenzhen Loop Area Institute*. I received my Ph.D. from the Department of Computer Science at *City University of Hong Kong*. I have conducted research and held academic or research positions at *Rutgers Business School*, the Department of Computer Science at *Purdue University*, the Department of Linguistics and Translation at *City University of Hong Kong*, the Institute for Infocomm Research at *A*STAR* (Singapore), and the School of Computer Science and Engineering at *Sun Yat-sen University*.
 
-My research focuses on **Natural Lnguage Processing (NLP)**, **large language models (LLMs)**, and **model compression** and **lightweight architectures**. I have published over 100 papers in leading international journals and conferences, including IEEE TPAMI, ACL, ICML, NeurIPS, and ICLR, and have led multiple national- and provincial-level research projects. My team pioneered research on heterogeneous model fusion and developed the FuseLLM and FuseChat series, which have attracted broad attention from academia and industry. I welcome research collaborations and applications from students interested in NLP and LLMs.
+My research focuses on *Natural Lnguage Processing (NLP)*, *large language models (LLMs)*, and *model compression* and *lightweight architectures*. I have published over 100 papers in leading international journals and conferences, including IEEE TPAMI, ACL, ICML, NeurIPS, and ICLR, and have led multiple national- and provincial-level research projects. My team pioneered research on heterogeneous model fusion and developed the FuseLLM and FuseChat series, which have attracted broad attention from academia and industry. I welcome research collaborations and applications from students interested in NLP and LLMs.
 
 
 ---
 # Latest News
 
++ 02/01/26 - One papers accepted to ICLR 2026.
 + 01/01/26 - Research project funded by National Natural Science Foundation of China (General Program) approved.
 + 12/15/25 - Invited to serve as Area Chair for ICLR 2026.
 + 10/06/25 - Three papers accepted to EMNLP 2025.
