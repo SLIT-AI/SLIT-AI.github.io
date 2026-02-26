@@ -24,7 +24,7 @@ repository               : "SLIT-AI/SLIT-AI.github.io" # [Modify] Your GitHub re
 author:
   avatar           : "profile.png" # Ensure your photo is named profile.png and placed in the /images/ folder
   name             : "Xiaojun Quan"      # [Modified] Name shown in sidebar
-  bio              : "Professor at the Shenzhen Loop Area Institute" # [Modified] Short bio
+  bio              : "Professor,  Shenzhen Loop Area Institute" # [Modified] Short bio
   location         : "Guangzhou, China"  # [Modified] Location
   employer         : "Shenzhen Loop Area Institute" # [Modified] Employer
   uri              : "https://SLIT-AI.github.io" # Link to your official faculty page
