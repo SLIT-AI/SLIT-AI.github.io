@@ -12,10 +12,11 @@ I am a professor at the *Shenzhen Loop Area Institute*. I received my Ph.D. from
 
 My research focuses on *Natural Lnguage Processing (NLP)*, *large language models (LLMs)*, and *model compression* and *lightweight architectures*. I have published over 100 papers in leading international journals and conferences, including IEEE TPAMI, ACL, ICML, NeurIPS, and ICLR, and have led multiple national- and provincial-level research projects. My team pioneered research on heterogeneous model fusion and developed the FuseLLM and FuseChat series, which have attracted broad attention from academia and industry. I welcome research collaborations and applications from students interested in NLP and LLMs.
 
+<strong><span style="color:red;">Shenzhen Loop Area Institute is recruiting Professors, APs, RAPs, Postdocs, and PhD students in areas such as LLMs and Speech LMs. Drop me an email if you’re interested.</span></strong>
 
 ---
 # Latest News
-
++ 04/05/26 - One papers accepted to ACL 2026.
 + 02/01/26 - One papers accepted to ICLR 2026.
 + 01/01/26 - Research project funded by National Natural Science Foundation of China (General Program) approved.
 + 12/15/25 - Invited to serve as Area Chair for ICLR 2026.
